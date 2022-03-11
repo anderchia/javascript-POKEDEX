@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    
+}
+
+@font-face {
+    font-family: "Pokemon";
+    src: url(./assets/tipo/PokemonSolid.ttf);
+}
+
+span {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+span img{
+    height: 400px;
+    min-width: fit-content;
+    min-height: fit-content;
+}
+
+body {
+    margin: 50px;
+    background-color: rgb(252, 253, 153);
+   
+    
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery img{
+    width: 400px;
+}
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.caja {
+    box-shadow: 10px 10px 10px;
+    margin: 30px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 208);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Pokemon";
+    margin-top: 10px;
+}
+
+p {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: helvetica;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.numero {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: helvetica;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.tipo {
+    border: 1px black solid;
+    padding: 4px;
+    border-style: dashed;
+    border-radius: 7px;
+    background-color:  #fafafa;
+}
